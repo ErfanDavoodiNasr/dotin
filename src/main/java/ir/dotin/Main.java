@@ -1,10 +1,13 @@
 package ir.dotin;
 
+
 public class Main {
     public static void main(String[] args) {
-        int height = 50;
-        System.out.println("When i was born my height was: " + height + "cm");
-        height = 180;
-        System.out.println("And today my height is: " + height + "cm");
+        double temperature;
+        temperature = 36.6;
+        System.out.println("Temperature is: " + temperature + "°C");
+        boolean isRaining;
+        isRaining = false;
+        System.out.println("IS raining in Tehran? " + isRaining);
     }
 }
